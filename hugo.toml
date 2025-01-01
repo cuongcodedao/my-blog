@@ -1,0 +1,71 @@
+baseURL = 'https://example.org/'
+# title = "Van Cuong"
+author = "Van Cuong"
+copyright = "© 2024, van.cuong"
+paginate = 5
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# ------------------------------
+theme = "paper"
+title = "cuongcodedao"
+
+[params]
+  color = 'linen'
+  github = 'cuongcodedao'
+  instagram = 'cuon.g5280'
+  graphCommentId = 'myblog12345678'
+
+  avatar = 'https://i.pinimg.com/originals/30/40/e7/3040e7c869a391e1326b371b2bd41d51.gif'
+  name = 'Văn Cường'
+  bio = 'Share my experiences and the things I have learned in my life'
+
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+#  [markup.highlight]
+#    lineNos = true
+
+
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+
