@@ -1,4 +1,4 @@
-baseURL = "https://cuongcodedao.github.io/my-blog"
+baseURL = 'https://cuongcodedao.github.io/my-blog/'
 # title = "Van Cuong"
 author = "Van Cuong"
 copyright = "© 2024, van.cuong"
