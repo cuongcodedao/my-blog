@@ -1,8 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = "https://cuongcodedao.github.io/my-blog"
 # title = "Van Cuong"
 author = "Van Cuong"
 copyright = "© 2024, van.cuong"
-paginate = 5
+pagination.pagerSize = 5
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
